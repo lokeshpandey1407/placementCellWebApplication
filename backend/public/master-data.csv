@@ -1,0 +1,9 @@
+Student Id, Name,College,Job Status,DSA Score, WebD score,React Score,Company Name,Interview Date,Result
+661adfd2328d48d77bd9e8e0,suraj,ram,Placed,100,100,100,Arushi solutions,2024-04-18,Pass
+661983e0d6c75f3d88d6b412,Himanshu rai,Ram manohar lohia avadh University,Placed,200,220,230,Arushi solutions,2024-04-18,Applied
+661adfd2328d48d77bd9e8e0,suraj,ram,Placed,100,100,100,Tech Solutions,2024-04-17,Applied
+661983e0d6c75f3d88d6b412,Himanshu rai,Ram manohar lohia avadh University,Placed,200,220,230,Tech Solutions,2024-04-17,Applied
+661cd7841b950f52dec15853,lokesh,ram,Not-placed,100,100,100,Tech Solutions,2024-04-17,Applied
+661983e0d6c75f3d88d6b412,Himanshu rai,Ram manohar lohia avadh University,Placed,200,220,230,lokesh,2024-04-15,Applied
+661adfd2328d48d77bd9e8e0,suraj,ram,Placed,100,100,100,lokesh,2024-04-15,On-Hold
+661cd7841b950f52dec15853,lokesh,ram,Not-placed,100,100,100,lokesh,2024-04-15,Pass
