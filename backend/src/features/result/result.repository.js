@@ -8,7 +8,7 @@ export default class ResultRepository {
     return await ResultModel.find({ interview: id }).populate("student");
   }
   async findOne(data) {
-    return await ResultModel.findOne({ data });
+    return await ResultModel.findOne(data);
   }
   async find() {
     return await ResultModel.find({})

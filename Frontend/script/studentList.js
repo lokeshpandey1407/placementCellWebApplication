@@ -28,6 +28,7 @@ function populateStudentTable(students) {
       <td>${student.DSAScore}</td>
       <td>${student.WebDScore}</td>
       <td>${student.reactScore}</td>
+      <td>${student.createdAt}</td>
     `;
     tableBody.appendChild(row);
   });

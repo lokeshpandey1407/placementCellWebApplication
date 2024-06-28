@@ -21,6 +21,7 @@ const StudentSchema = new mongoose.Schema(
     results: [
       { type: mongoose.Schema.Types.ObjectId, required: true, ref: "Result" },
     ],
+    createdAt: { type: String },
   },
   { timeStamp: true }
 );

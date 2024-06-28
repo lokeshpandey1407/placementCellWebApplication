@@ -79,6 +79,5 @@ export default class InterviewController {
       next(error);
     }
   }
-
   async updateResult(req, res, next) {}
 }

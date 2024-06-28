@@ -6,8 +6,10 @@ export default class StudentController {
     this.studentRepository = new StudentRepository();
   }
   async create(req, res, next) {
+    const studentData = req.body;
+    studentData.createdAt = new Date().toLocaleString();
     try {
-      const student = await this.studentRepository.create(req.body);
+      const student = await this.studentRepository.create(studentData);
       if (!student) {
         throw new ApplicationError("Cannot create Student", 500);
       } else {
